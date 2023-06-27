@@ -1,6 +1,7 @@
-amo<html>
+
+<html>
 <head>
-    <title</title>
+    <title>cartinha (aceita pfv 😭)</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -24,22 +25,19 @@ amo<html>
 </head>
 <body>
     <h1>Carta de Pedido de Namoro</h1>
-    <p id="question">oii fernanda, aceita namorar cmg?.</p>
+    <p id="question">oii fernanda, vc aceita nmr cmg?.</p>
     <div id="buttons">
         <button onclick="redirecionarParaWhatsApp()">Sim</button>
-        <button onclick="responder('sim')">Não</button>
+        <button onclick="responder('nao')">Não</button>
     </div>
     <p id="response"></p>
 
     <script>
         function redirecionarParaWhatsApp() {
-            // Substitua o número de telefone abaixo pelo seu número do WhatsApp
-            var numeroWhatsApp = "+5568996059753";
+            var numeroWhatsApp = "+5568996059753"; // Substitua pelo seu número de telefone, incluindo o código do país
+            var mensagem = "aceito simm, eu te amo ❤️"; // Substitua pela mensagem que você deseja enviar
             
-            // Substitua a mensagem abaixo pela mensagem que você deseja enviar
-            var mensagem = "aceito sim, eu te amo ❤️❤️";
-            
-            var linkWhatsApp = "https://wa.me/5568996059753 + "?text=" + encodeURIComponent(eu te amo fernanda ❤️❤️);
+            var linkWhatsApp = "https://wa.me/" + numeroWhatsApp + "?text=" + encodeURIComponent(mensagem);
             
             window.location.href = linkWhatsApp;
         }
@@ -48,7 +46,7 @@ amo<html>
             var responseElement = document.getElementById('response');
 
             if (resposta === 'sim') {
-                responseElement.innerHTML = " aeeeee, qbomm";
+                responseElement.innerHTML = "Que ótimo! Eu estou muito feliz por você ter aceitado. Mal posso esperar para começarmos esse relacionamento juntos!";
             } else if (resposta === 'nao') {
                 responseElement.innerHTML = "Ah, entendo. Não tem problema, eu respeito a sua decisão. Se um dia você mudar de ideia, estarei aqui.";
             }
