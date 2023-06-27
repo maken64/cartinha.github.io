@@ -26,7 +26,7 @@
 </head>
 <body>
     <h1>Carta de Pedido de Namoro</h1>
-    <p id="question">Olá! Eu queria saber se você aceita namorar comigo.</p>
+    <p id="question">oii, Fernanda vc aceita namorar comigo?.</p>
     <div id="buttons">
         <button onclick="responder('sim')">Sim</button>
         <button onclick="responder('nao')">Não</button>
@@ -38,9 +38,9 @@
             var responseElement = document.getElementById('response');
 
             if (resposta === 'sim') {
-                responseElement.innerHTML = "Que ótimo! Eu estou muito feliz por você ter aceitado. Mal posso esperar para começarmos esse relacionamento juntos!";
+                responseElement.innerHTML = "aeeeeeee,qbom";
             } else if (resposta === 'nao') {
-                responseElement.innerHTML = "Ah, entendo. Não tem problema, eu respeito a sua decisão. Se um dia você mudar de ideia, estarei aqui.";
+                responseElement.innerHTML = "entao se foda";
             }
         }
     </script>
